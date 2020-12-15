@@ -15,6 +15,9 @@ namespace AbstractClassStep244
             individual.firstName = "Sample";
             individual.lastName = "Student";
             individual.SayName();
+
+            individual.age = 15;
+            individual.tellAge();
             Console.ReadLine();
         }
     }

@@ -10,10 +10,17 @@ namespace AbstractClassStep244
     {
         public string firstName { get; set; }
         public string lastName { get; set; }
+        public int age { get; set; }
 
         public virtual void SayName()
         {
             Console.WriteLine(firstName + lastName);
+        }
+
+        public void tellAge()
+        {
+
+            Console.WriteLine(age);
         }
 
     }
